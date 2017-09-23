@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <!--<img src="./assets/logo.png">-->
     <router-view
       class="view"
       keep-alive
@@ -26,6 +26,10 @@
 </script>
 
 <style>
+  * {
+    padding: 0;
+    margin: 0;
+  }
   #app {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -33,5 +37,7 @@
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+    min-width: 800px;
+    min-height: 600px;
   }
 </style>
